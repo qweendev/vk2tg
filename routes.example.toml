@@ -1,0 +1,9 @@
+[[route]]
+vk = "habr"
+telegram = "@habr_mirror"
+
+[[route]]
+vk = "https://vk.com/club123"
+telegram = -1001234567890
+reposts = false
+source_link = false

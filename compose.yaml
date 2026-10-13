@@ -1,0 +1,11 @@
+services:
+  vk2tg:
+    build: .
+    env_file: .env
+    volumes:
+      - ./routes.toml:/home/vk2tg/routes.toml:ro
+      - data:/home/vk2tg/data
+    restart: unless-stopped
+
+volumes:
+  data:
